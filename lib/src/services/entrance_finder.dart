@@ -30,7 +30,7 @@ class BuildingAndEntranceFinder {
     final query = _generateOverpassQuery(inputLocations, 50);
 
     final response = await http.post(
-      Uri.parse("http://overpass-api.de/api/interpreter"),
+      Uri.parse("https://overpass-api.de/api/interpreter"),
       body: {"data": query},
     );
 
