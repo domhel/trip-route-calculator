@@ -5,7 +5,7 @@ import 'package:http/http.dart' as http;
 
 class BuildingAndEntranceFinder {
   final Distance distance = const Distance();
-  final String overpassUrl = "http://overpass-api.de/api/interpreter";
+  final String overpassUrl = "https://overpass-api.de/api/interpreter";
   final double searchRadius = 50.0; // Radius in meters
 
   //search for buildings and entrances around the given input location
